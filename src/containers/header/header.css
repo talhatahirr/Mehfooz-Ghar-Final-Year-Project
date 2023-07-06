@@ -1,0 +1,205 @@
+.body{
+ 
+padding: 3%;
+height:100%;
+}
+h1 {
+  font-size: 62px;
+}
+
+.mehfoozghar__header-content {
+  flex-direction: column;
+}
+
+.mehfoozghar__header-content h1 {
+  font-size: 62px !important;
+  line-height: 75px;
+  letter-spacing: -0.04cm;
+}
+
+.mehfoozghar__header-content p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  margin-top: 1.5rem;
+  max-width: 100%;
+}
+
+.basic-clr {
+  display: flex;
+  align-items: center;
+}
+
+.basic-clr p {
+  margin-bottom: 0;
+  font-size: 24px;
+  margin-left: 8px;
+}
+
+.mehfoozghar__header-content__input {
+  width: 100%;
+  margin: 4rem 4 1rem;
+  display: flex;
+  height: 70px;
+}
+
+.mehfoozghar__header-content__input input {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-weight: normal;
+  line-height: 27px;
+  flex: 2;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 1rem;
+  outline: none;
+  
+  border: 2px solid var(--color-footer);
+}
+.mehfoozghar__header-content__input input::placeholder {
+  color: #002f5d;
+  font-size: 20px;
+}
+
+.mehfoozghar__header-content__input button {
+    background: #fa6028;
+    background-image: linear-gradient(to bottom right, #fa6028, #d8663c);
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 0.6 rem !important;
+    flex: 0.3;
+    width: 100%;
+    min-height: 30px;
+    padding: 0 2rem;
+    margin:0 auto;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.mehfoozghar__header-content__input button:hover {
+    background: linear-gradient(to right, #fa6028, #ff4e00);
+
+}
+
+
+.mehfoozghar__header-content__people {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.mehfoozghar__header-content__people img {
+  width: 181.79px;
+  height: 38px;
+}
+.hero-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    max-width: none;
+    width: 80%;
+    margin: 2rem auto 1rem;
+    display: block;
+    float: none;
+    filter: drop-shadow(2px 4px 6px  rgb(126, 50, 9));
+}
+
+
+.mehfoozghar__header-content__people p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+  margin: 0 0 0 1rem;
+  text-align: center;
+}
+
+.mehfoozghar__header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  box-shadow: 100%;
+  filter: drop-shadow(20px 10px 10px rgba(0, 0, 0, 0.25));
+}
+@media (max-width: 768px) {
+    .basic-clr {
+      font-size: 12px;
+    }
+    .basic-clr p,
+    .basic-clr svg {
+      font-size: 12px;
+      
+    }
+    .icon{
+        margin-left:-6px;
+    }
+    .hero-img{
+        max-width: none;
+        width: 80%;
+        margin: 2rem auto 1rem;
+        display: block;
+        float: none;
+      }
+  }
+/* 
+
+@media screen and (max-width: 1050px) {
+    .mehfoozghar__header {
+        flex-direction: column;
+    }
+    .mehfoozghar__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mehfoozghar__header h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .mehfoozghar__header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .mehfoozghar__header-content__people {
+        flex-direction: column;
+    }
+    .mehfoozghar__header-content__people p {
+        margin: 0;
+    }
+    .mehfoozghar__header-content__input input,
+    .mehfoozghar__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    } 
+}
+
+@media screen and (max-width: 490px) {
+    .mehfoozghar__header h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .mehfoozghar__header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .mehfoozghar__header-content__input input,
+    .mehfoozghar__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    } 
+} */

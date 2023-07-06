@@ -1,0 +1,95 @@
+/* .bg-basic1{
+    height: 9rem;
+    width:20rem
+}
+.circle{
+    width:10rem;
+    height: 9rem;
+    border-radius: 50%;
+    right:-80px;
+
+}
+.main_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -4rem;
+}
+.text-start{
+    margin-left:65px;
+}
+.img-1{
+    margin-left:20px;
+    margin-top:15px;
+    border-radius:50%;
+    width:7rem;
+    height:7rem;
+    z-index:-1  
+}
+.align-them{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 100px;
+    
+}
+.second_row {
+    margin: 230px 100px 50px 100px !important;
+}
+.text_pill{
+    font-size: 13px;
+    margin-right: 70px;
+}
+.heading{
+    margin-right: 20px;;
+}
+
+.alt{
+    left:-80px;
+}*/
+.catchphrase-boxes {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .catchphrase-box {
+    width: 45%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(225deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)),
+                radial-gradient(circle at top left, #fd7e14, #cc3300);
+    backdrop-filter: blur(10px);
+  }
+  .svgs{
+    width: 100px;
+  }
+ 
+  
+  
+  .catchphrase-box__text {
+
+    font-size: 18px;
+    font-weight: 600;
+    margin-left:10px;
+    color: #ffffff;
+  }
+  
+  .catchphrase-box:nth-child(even) {
+    background: linear-gradient(225deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)),
+                radial-gradient(circle at top left, #0088cc, #003366);
+  }
+  
+  @media (max-width: 768px) {
+    .catchphrase-box {
+      width: 80%;
+      margin:auto;
+      margin-bottom: 10%;
+    }
+  }
+  

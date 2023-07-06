@@ -1,0 +1,64 @@
+.major {
+  position: relative;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  width: 12rem;
+  height: 11rem;
+  z-index: 1;
+}
+.minor {
+  position: relative;
+  top: -0.5rem;
+  height: 7rem;
+  left: -0.5rem;
+  width: 13rem;
+  border-radius: 20px 20px 0 0;
+  z-index: 0;
+}
+.works_img {
+  width: 400px;
+  margin-top: 10px;
+}
+.bg-green-1 {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  bottom: -1.5rem;
+  border-radius: 10px;
+}
+
+.minor-2 {
+  position: relative;
+  bottom: -0.5rem;
+  height: 7rem;
+  left: -0.5rem;
+  width: 13rem;
+  border-radius: 0 0 20px 20px;
+  z-index: 0;
+}
+.bg-green-2 {
+  top: -1.5rem;
+    right: 4.5rem;
+}
+.div_works {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.arrow1{
+  position: absolute;
+  top:0;
+}
+
+.major-2::before{
+  content: url('../../assets/arrow\ 1.png');
+  position: absolute;
+  background-size: contain;
+  left:-10rem;
+}
+
+.major-2::after{
+  content: url('../../assets/arrow\ 2.png');
+  position: absolute;
+  background-size: contain;
+  right:-10rem;
+}

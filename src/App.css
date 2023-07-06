@@ -1,0 +1,189 @@
+App css
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  scroll-behavior: smooth;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+html, body, #app, #app>div {
+  height: 100%
+}
+
+body {
+    background: radial-gradient(circle at 26% 27%, rgba(255, 255, 255, 1) 0%, rgba(232, 252, 255, 1) 100%);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.gradient__bg {
+      /* ff 3.6+ */
+      background:-moz-radial-gradient(circle at 26% 27%, rgba(255, 255, 255, 1) 0%, rgba(232, 252, 255, 1) 100%);
+
+      /* safari 5.1+,chrome 10+ */
+      background:-webkit-radial-gradient(circle at 26% 27%, rgba(255, 255, 255, 1) 0%, rgba(232, 252, 255, 1) 100%);
+  
+      /* opera 11.10+ */
+      background:-o-radial-gradient(circle at 26% 27%, rgba(255, 255, 255, 1) 0%, rgba(232, 252, 255, 1) 100%);
+  
+      /* ie 10+ */
+      background:-ms-radial-gradient(circle at 26% 27%, rgba(255, 255, 255, 1) 0%, rgba(232, 252, 255, 1) 100%);
+  
+      /* global 92%+ browsers support */
+      /* background:radial-gradient(circle at 26% 27%, rgba(255, 255, 255, 1) 0%, rgba(232, 252, 255, 1) 100%); */
+
+}
+.fs-20{
+  font-size: 20px;
+}
+
+.fs-24{
+  font-size: 24px;
+}
+
+.secondary-clr{
+  color:#fa6028;
+}
+.basic-clr{
+  color: #002f5d; 
+}
+.bg-basic{
+  background-color: #002f5d; 
+}
+.green-clr{
+  color:#5FA156;
+}
+.bg-green{
+  background-color:#5FA156 ;
+}
+.section__padding{
+  padding: 4rem 6rem;
+}
+.background{
+  background: linear-gradient(114.28deg, #FFFFFF 0.32%, #E8FCFF 21.53%, #D6F9FF 99.59%);
+}
+.fs-40{
+  font-size:3rem;
+}
+.section__margin {
+  padding: 4rem 6rem;
+}
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+          animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@media screen and(max-width: 700px) {
+  .section__padding{
+    padding: 4rem 2rem;
+  }
+  .section__margin{
+    margin: 4rem 2rem;
+  }
+}
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  scroll-behavior: smooth;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+html, body, #app, #app>div {
+  height: 100%
+}
+
+body {
+    background: radial-gradient(circle at 26% 27%, rgba(255, 255, 255, 1) 0%, rgba(232, 252, 255, 1) 100%);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+ h1 {
+  color:#002f5d
+ }
+ h2,h3,h4,h5,li,label{
+  color:#222222;
+ }
+ p{
+  color:#2e2e2e;
+ }
+
+ .button, cta{
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin-left:500px;
+ }
+.gradient__bg {
+      /* ff 3.6+ */
+      background:-moz-radial-gradient(circle at 26% 27%, rgba(255, 255, 255, 1) 0%, rgba(232, 252, 255, 1) 100%);
+
+      /* safari 5.1+,chrome 10+ */
+      background:-webkit-radial-gradient(circle at 26% 27%, rgba(255, 255, 255, 1) 0%, rgba(232, 252, 255, 1) 100%);
+  
+      /* opera 11.10+ */
+      background:-o-radial-gradient(circle at 26% 27%, rgba(255, 255, 255, 1) 0%, rgba(232, 252, 255, 1) 100%);
+  
+      /* ie 10+ */
+      background:-ms-radial-gradient(circle at 26% 27%, rgba(255, 255, 255, 1) 0%, rgba(232, 252, 255, 1) 100%);
+  
+      /* global 92%+ browsers support */
+      /* background:radial-gradient(circle at 26% 27%, rgba(255, 255, 255, 1) 0%, rgba(232, 252, 255, 1) 100%); */
+
+}
+.fs-20{
+  font-size: 20px;
+}
+
+.fs-24{
+  font-size: 24px;
+}
+
+.secondary-clr{
+  color:#fa6028;
+}
+.basic-clr{
+  color: #002f5d; 
+}
+.bg-basic{
+  background-color: #002f5d; 
+}
+.green-clr{
+  color:#5FA156;
+}
+.bg-green{
+  background-color:#5FA156 ;
+}
+.section__padding{
+  padding: 4rem 6rem;
+}
+.background{
+  background: linear-gradient(114.28deg, #FFFFFF 0.32%, #E8FCFF 21.53%, #D6F9FF 99.59%);
+}
+.fs-40{
+  font-size:3rem;
+}
+.section__margin {
+  padding: 4rem 6rem;
+}
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+          animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@media screen and(max-width: 700px) {
+  .section__padding{
+    padding: 4rem 2rem;
+  }
+  .section__margin{
+    margin: 4rem 2rem;
+  }
+}

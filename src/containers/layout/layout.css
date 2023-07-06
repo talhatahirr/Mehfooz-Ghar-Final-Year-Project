@@ -1,0 +1,9 @@
+
+@media screen and (max-width: 767px) {
+    /* Adjust the breakpoint value as per your needs */
+   
+  
+    .content {
+      margin-top: 0;
+    }
+}

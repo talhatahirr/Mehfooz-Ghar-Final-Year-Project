@@ -1,0 +1,92 @@
+/* General styles */
+.container {
+  backdrop-filter: blur(10px);
+  background-color: rgba(1, 27, 52, 0.5);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.table__header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #E8FCFF;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border-top: 1px solid #212529;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #212529;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #212529;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #E8FCFF;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f95722;
+  border: 1px solid #f95722;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn:hover {
+  color: #E8FCFF;
+  background-color: #042c54;
+  border-color: #031B34;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.profile-pic {
+  width: 40px;
+  border-radius: 70%;
+  object-fit: cover;
+}
+
+/* Responsive styles for screens up to 768px width */
+@media (max-width: 768px) {
+  .table th,
+  .table td {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .profile-pic {
+    width: 30px;
+  }
+}
